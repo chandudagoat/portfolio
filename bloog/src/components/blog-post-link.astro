@@ -1,0 +1,30 @@
+---
+interface Props {
+  link: string;
+  blog_title: string;
+  blog_posted_date: string;
+}
+
+const { link, blog_posted_date, blog_title } = Astro.props;
+---
+
+<div
+  class="blog_link flex w-1/2 items-center justify-center rounded-md border-2 mb-2"
+>
+  <a href={link} class="w-full">
+    <div class="flex items-center justify-between p-2">
+      <p class="text-[#808080]">{blog_title}</p>
+      <p class="text-[#808080]">{blog_posted_date}</p>
+    </div>
+  </a>
+</div>
+
+<style>
+  .blog_link {
+    transition: 500ms;
+  }
+
+  .blog_link:hover {
+    background-color: #cdcdcd;
+  }
+</style>

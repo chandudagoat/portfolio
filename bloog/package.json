@@ -1,0 +1,20 @@
+{
+  "name": "bloog",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "deno run --allow-net --allow-read --allow-env ./dist/server/entry.mjs",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/deno": "^5.0.0",
+    "@astrojs/tailwind": "^5.0.0",
+    "@fontsource/inter": "^5.0.8",
+    "@fontsource/poppins": "^5.0.8",
+    "astro": "^3.0.8",
+    "tailwindcss": "^3.3.3"
+  }
+}

@@ -1,0 +1,36 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { Image } from "astro:assets";
+import Navbar from "../components/navbar.astro";
+---
+
+<Layout title="hclanka" />
+
+<Navbar />
+<div class="w-full h-screen flex items-center justify-center flex-col">
+  <div class="flex flex-col items-center mb-10">
+    <Image
+      src="https://pbs.twimg.com/profile_images/1697262612587905024/JRxfP2T0_400x400.jpg"
+      width={400}
+      height={400}
+      alt="me"
+      class="w-96 mb-2"
+    />
+    <span class="text-[#808080]">(me)</span>
+  </div>
+  <div class="flex flex-col items-center">
+    <div class="flex flex-col items-center">
+      <h1 class="text-[#000000] text-3xl font-bold">chandu lanka(hclanka)</h1>
+      <span class="text-[#808080] italic">entreprenuer | ml engineer</span>
+    </div>
+    <p class="text-[#000000] mt-5">
+      working on ai startups like <a
+        href="https://twitter.com/hclanka/status/1696305480161997286"
+        class="text-[#DC143C]">beatsai</a
+      > and roomiq, hs student, <a
+        href="https://scoopydevy.itch.io/"
+        class="text-[#DC143C]">retired game dev</a
+      >
+    </p>
+  </div>
+</div>
