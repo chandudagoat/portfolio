@@ -34,6 +34,6 @@ jobs:
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: "fat-coyote-85"
+          project: "wild-zebra-60"
           entrypoint: "server/entry.mjs" # 📝 Update the entrypoint if necessary
           root: "bloog/dist" # 📝 Update the root if necessary
