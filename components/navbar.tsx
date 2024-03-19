@@ -32,9 +32,17 @@ export default function Navbar() {
             className="underline decoration"
             target="_blank"
           >
-            freelancer
-          </a>{" "}
-          by day, founder by night.
+            freelancing
+          </a>
+          {", "}
+          <a
+            href="https://youtube.com/@vaderdev"
+            target="_blank"
+            className="underline decoration"
+          >
+            youtube
+          </a>
+          {", founder."}
         </span>
       </div>
       <div className="">
