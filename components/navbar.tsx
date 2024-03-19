@@ -82,8 +82,8 @@ export default function Navbar() {
             <AlertDialogHeader>
               <AlertDialogTitle>Copied to clipboard!</AlertDialogTitle>
               <AlertDialogDescription>
-                Copied hclanka's discord username and id. Please do inquire him
-                questions via discord if needed.
+                Copied hclanka&lsquo;s discord username and id. Please do
+                inquire him questions via discord if needed.
               </AlertDialogDescription>
             </AlertDialogHeader>
             <AlertDialogFooter>
