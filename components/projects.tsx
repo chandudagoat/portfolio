@@ -13,7 +13,10 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+
 import portrait from "@/app/portrait.png";
+import tsmake from "@/app/TSMake.png";
+
 import { TbBrandNextjs } from "react-icons/tb";
 import { SiMongodb, SiTailwindcss, SiTypescript } from "react-icons/si";
 import { FaGolang } from "react-icons/fa6";
@@ -38,7 +41,7 @@ export default function Projects() {
                 </a>
               </CardContent>
               <CardFooter className="flex flex-col items-start justify-center">
-                <p className="text-gray-400 mb-2 text-sm">"stack"</p>
+                <p className="text-gray-400 mb-2 text-sm">&quot;stack&quot;</p>
                 <div className="icons flex">
                   <TbBrandNextjs className="text-3xl mr-2" />
                   <SiTailwindcss className="text-3xl mr-2" />
@@ -50,14 +53,28 @@ export default function Projects() {
             </Card>
           </CarouselItem>
           <CarouselItem>
-            <iframe
-              className="rounded"
-              frameBorder="0"
-              height="462px"
-              src="https://contra.com/s/O2gWQqmv-video-editing/embed?structure=vertical"
-              title="View this service on Contra"
-              width="384px"
-            />
+            <Card>
+              <CardHeader>
+                <CardTitle>tsmake</CardTitle>
+                <CardDescription>
+                  ts and js templates in a jiffy.
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                <a
+                  href="https://github.com/chandudagoat/tsmake"
+                  target="_blank"
+                >
+                  <img src={tsmake.src} className="w-96" alt="portrait" />
+                </a>
+              </CardContent>
+              <CardFooter className="flex flex-col items-start justify-center">
+                <p className="text-gray-400 mb-2 text-sm">&quot;stack&quot;</p>
+                <div className="icons flex">
+                  <SiTypescript className="text-3xl" />
+                </div>
+              </CardFooter>
+            </Card>
           </CarouselItem>
         </CarouselContent>
         <CarouselPrevious />

@@ -15,7 +15,7 @@ export default function Home() {
           </h1>
         </a>
 
-        <h1 className="text-center font-semibold mb-2">"projects"</h1>
+        <h1 className="text-center font-semibold">&quot;projects&quot;</h1>
 
         <Projects />
       </div>
