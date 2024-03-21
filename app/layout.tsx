@@ -12,7 +12,7 @@ export const fontSans = FontSans({
 
 export const metadata: Metadata = {
   title: "hclanka",
-  description: "freelancer by day, founder by night",
+  description: "working on startups and freelancing on the side.",
 };
 
 export default function RootLayout({
