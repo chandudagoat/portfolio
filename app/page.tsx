@@ -16,7 +16,6 @@ export default function Home() {
         </a>
 
         <h1 className="text-center font-semibold">&quot;projects&quot;</h1>
-
         <Projects />
       </div>
       <Footer />
