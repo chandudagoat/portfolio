@@ -17,7 +17,7 @@ export default function Home() {
         </a>
         <div className="mb-8">
           <BlogPost
-            href="/cursorvsvscode"
+            href="/blog/cursorvsvscode"
             title="Cursor vs Vscode"
             date="22nd March, 2024"
           />

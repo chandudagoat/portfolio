@@ -11,7 +11,7 @@ export default function Blog() {
 
       <div className="mb-4">
         <BlogPost
-          href="/cursorvsvscode"
+          href="/blog/cursorvsvscode"
           title="Cursor vs Vscode"
           date="22nd March, 2024"
         />
