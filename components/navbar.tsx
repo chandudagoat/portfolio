@@ -74,9 +74,7 @@ export default function Navbar() {
               <HoverCardTrigger>
                 <Button
                   variant="ghost"
-                  onClick={() =>
-                    navigator.clipboard.writeText("urbrownkid#0594")
-                  }
+                  onClick={() => navigator.clipboard.writeText("hclanka")}
                 >
                   <FaDiscord className="h-[1.2rem] w-[1.2rem]" />
                 </Button>
