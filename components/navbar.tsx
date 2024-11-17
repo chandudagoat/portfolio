@@ -28,21 +28,13 @@ export default function Navbar() {
         </a>
         <span>
           <a
-            href="https://contra.com/hclankacreates"
-            className="underline decoration"
-            target="_blank"
-          >
-            freelancing
-          </a>
-          {", "}
-          <a
             href="https://youtube.com/@vaderdev"
             target="_blank"
             className="underline decoration"
           >
-            youtube
+            youtuber
           </a>
-          {", founder."}
+          {", aspiring physicist, founder."}
         </span>
       </div>
       <div className="">
